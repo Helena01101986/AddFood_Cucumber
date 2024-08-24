@@ -15,7 +15,7 @@
         <project.reporting.outputEncoding>${encoding.type}</project.reporting.outputEncoding>
         <file.encoding>${encoding.type}</file.encoding>
 
-        <java.vertion>11</java.vertion>
+        <java.version>11</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
 
@@ -117,7 +117,7 @@
                 <configuration>
                     <reportVersion>2.24.0</reportVersion>
                     <resultsDirectory>${project.build.directory}/reports/allure-results</resultsDirectory>
-                    <reportDirectory>${project.build.directory}/reports/allure-results</reportDirectory>
+                    <reportDirectory>${project.build.directory}/reports/allure-report</reportDirectory>
                 </configuration>
             </plugin>
 

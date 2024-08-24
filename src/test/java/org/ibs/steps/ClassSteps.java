@@ -169,6 +169,11 @@ public class ClassSteps {
         Assertions.assertTrue(addedFood.isEnabled());
     }
 
+    @И("Приложение закрыто")
+    public void приложение_закрыто() {
+        driver.close();
+    }
+
 
 
 
